@@ -1,0 +1,30 @@
+[package]
+name = "python-cron-replies"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = { version = "1.0.98", features = ["backtrace"] }
+async-stomp = "0.6.1"
+chrono = "0.4.41"
+clap = { version = "4.5.40", features = ["derive", "env"] }
+dotenvy = "0.15.7"
+futures-util = "0.3.31"
+imap = { version = "2.4.1", features = ["native-tls"] }
+mailparse = "0.16.1"
+md5 = "0.8.0"
+mockall = "0.13.1"
+native-tls = { version = "0.2.14", default-features = false, features = ["vendored"] }
+regex = { version = "1.11.1", default-features = false, features = ["unicode-case"] }
+reqwest = "0.12.22"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+sha2 = "0.10.9"
+sqlx = { version = "0.8.6", features = ["mysql", "runtime-async-std","time"] }
+stomp-rs = "0.0.8"
+thrift = "0.17.0"
+time = { version = "0.3.41", features = ["serde"] }
+tokio = { version = "1.45.1", default-features = false, features = ["macros", "rt-multi-thread", "time"] }
+tracing = "0.1.41"
+tracing-appender = "0.2.3"
+tracing-subscriber = "0.3.19"

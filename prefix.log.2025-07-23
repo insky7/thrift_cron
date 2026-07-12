@@ -1,0 +1,29 @@
+2025-07-23T02:38:54.119868Z  INFO python_cron_replies::db_interactions: 123: Fetching new text messages.
+2025-07-23T02:38:54.574922Z  INFO python_cron_replies::db_interactions: 169: []
+2025-07-23T02:38:54.574960Z  INFO python_cron_replies::imap_interactions: 17: Fetching new emails.
+2025-07-23T02:38:55.069409Z  INFO python_cron_replies::imap_interactions: 25: Connected to mail.
+2025-07-23T02:38:55.224129Z  INFO python_cron_replies::imap_interactions: 37: mailbox.exists=1
+2025-07-23T02:38:55.372931Z  INFO python_cron_replies::imap_interactions: 159: [NotifierEmail { to_email: None, from_email: None, promise_id: Some("15732929"), mobile_number: None, date: "2025-07:23 02:38:55", subject: Some("Undelivered Mail Returned to Sender"), message: Some("This is the mail system at host udp-smtp-1.updatepromise.com.\r\n\r\nI'm sorry to have to inform you that your message could not\r\nbe delivered to one or more recipients. It's attached below.\r\n\r\nFor further assistance, please send mail to postmaster.\r\n\r\nIf you do so, please include this problem report. You can\r\ndelete your own text from the attached returned message.\r\n\r\n                   The mail system\r\n\r\n<Wava1753238073987@example.com>: Name service error for name=example.com\r\n    type=MX: Malformed or unexpected name server reply\r\n"), body_html: Some("Reporting-MTA: dns; udp-smtp-1.updatepromise.com\r\nX-Postfix-Queue-ID: 64E799BC32\r\nX-Postfix-Sender: rfc822; notifiertest+P15732929@updatepromise.com\r\nArrival-Date: Wed, 23 Jul 2025 02:38:35 +0000 (UTC)\r\n\r\nFinal-Recipient: rfc822; Wava1753238073987@example.com\r\nOriginal-Recipient: rfc822;Wava1753238073987@example.com\r\nAction: failed\r\nStatus: 5.4.4\r\nDiagnostic-Code: X-Postfix; Name service error for name=example.com type=MX:\r\n    Malformed or unexpected name server reply\r\n") }]
+2025-07-23T02:38:55.373030Z  INFO python_cron_replies::types: 234: Test here: None
+2025-07-23T02:38:58.319376Z  INFO python_cron_replies::types: 210: Promise found: 15732929
+2025-07-23T02:38:58.319414Z  INFO python_cron_replies::types: 213: Action was determined to be: "ESTREPLY"
+2025-07-23T02:38:58.458172Z  INFO python_cron_replies::types: 234: Test here: None
+2025-07-23T02:38:59.409934Z  INFO python_cron_replies::types: 488: Entered handle_estreply fn
+2025-07-23T02:38:59.411045Z  INFO python_cron_replies::db_interactions: 205: Reply Count = 1
+2025-07-23T04:04:21.464099Z  INFO python_cron_replies::db_interactions: 126: Fetching new text messages.
+2025-07-23T04:04:21.956231Z  INFO python_cron_replies::db_interactions: 172: []
+2025-07-23T04:04:21.956275Z  INFO python_cron_replies::imap_interactions: 17: Fetching new emails.
+2025-07-23T04:04:22.430454Z  INFO python_cron_replies::imap_interactions: 25: Connected to mail.
+2025-07-23T04:04:22.570704Z  INFO python_cron_replies::imap_interactions: 31: No messages.
+2025-07-23T04:04:22.570800Z  INFO python_cron_replies::db_interactions: 211: Reply Count = 0
+2025-07-23T04:05:14.736097Z  INFO python_cron_replies::db_interactions: 126: Fetching new text messages.
+2025-07-23T04:05:15.261650Z  INFO python_cron_replies::db_interactions: 172: []
+2025-07-23T04:05:15.261699Z  INFO python_cron_replies::imap_interactions: 17: Fetching new emails.
+2025-07-23T04:05:15.781552Z  INFO python_cron_replies::imap_interactions: 25: Connected to mail.
+2025-07-23T04:05:15.930444Z  INFO python_cron_replies::imap_interactions: 31: No messages.
+2025-07-23T04:05:15.930541Z  INFO python_cron_replies::db_interactions: 211: Reply Count = 0
+2025-07-23T12:32:00.303082Z  INFO python_cron_replies::db_interactions: 126: Fetching new text messages.
+2025-07-23T12:32:00.763360Z  INFO python_cron_replies::imap_interactions: 16: Fetching new emails.
+2025-07-23T12:32:01.233705Z  INFO python_cron_replies::imap_interactions: 24: Connected to mail.
+2025-07-23T12:32:01.384979Z  INFO python_cron_replies::imap_interactions: 30: No messages.
+2025-07-23T12:32:01.385059Z  INFO python_cron_replies::db_interactions: 201: Reply Count = 0
